@@ -1,0 +1,68 @@
+<!-- sponsors.shtml -->
+ <!--#include file="shared/header.html" -->
+<main class="bg-white text-gray-800">
+
+  <!-- Hero Banner -->
+  <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-20 text-center" data-aos="fade-down">
+    <div class="container mx-auto px-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Support PRHS TSA</h1>
+      <p class="text-lg md:text-xl max-w-2xl mx-auto">
+        Our sponsors help us grow the next generation of STEM leaders. Partner with us today!
+      </p>
+    </div>
+  </section>
+
+  <!-- Moving Callout Line -->
+  <div class="bg-blue-800 text-white py-3 overflow-hidden relative">
+    <div class="animate-marquee whitespace-nowrap text-lg font-semibold">
+      <span class="mx-4">Sponsor us today to be featured here</span>
+      <span class="mx-4">Sponsor us today to be featured here</span>
+      <span class="mx-4">Sponsor us today to be featured here</span>
+    </div>
+  </div>
+
+  <!-- Sponsor Tiers -->
+  <section class="py-16 bg-white" id="sponsorship-tiers">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-blue-700 mb-12" data-aos="fade-up">Sponsorship Tiers</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <!-- Platinum -->
+        <div class="bg-blue-50 border-4 border-yellow-400 p-8 rounded-lg shadow-lg transition hover:shadow-2xl" data-aos="fade-up">
+          <h3 class="text-2xl font-bold text-blue-800 mb-4">Platinum Sponsor</h3>
+          <p class="text-lg text-gray-700 mb-4">Contribution: $1000+</p>
+          <p class="text-gray-600 mb-4">Your logo featured prominently on our website, social media, and event materials. VIP invites to chapter showcases and competitions.</p>
+        </div>
+
+        <!-- Gold -->
+        <div class="bg-blue-50 border-4 border-yellow-300 p-8 rounded-lg shadow-lg transition hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="text-2xl font-bold text-blue-800 mb-4">Gold Sponsor</h3>
+          <p class="text-lg text-gray-700 mb-4">Contribution: $500 - $1000</p>
+          <p class="text-gray-600 mb-4">Your logo included on our website and digital materials, and appreciation on social media.</p>
+        </div>
+
+        <!-- Silver -->
+        <div class="bg-blue-50 border-4 border-gray-400 p-8 rounded-lg shadow-lg transition hover:shadow-2xl" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="text-2xl font-bold text-blue-800 mb-4">Silver Sponsor</h3>
+          <p class="text-lg text-gray-700 mb-4">Contribution: $250 - $500</p>
+          <p class="text-gray-600 mb-4">Name listed on our chapter site and verbal acknowledgment at local events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- AOS & Marquee CSS -->
+<style>
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  .animate-marquee {
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+  }
+</style>
+
+<!--#include file="shared/footer.html" -->

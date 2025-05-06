@@ -1,0 +1,73 @@
+<!-- achievements.shtml -->
+<!--#include file="shared/header.html" -->
+<main class="bg-white text-gray-800">
+
+    <!-- Hero Banner -->
+    <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-20 text-center">
+      <div class="container mx-auto px-6">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 aos-init" data-aos="fade-down">Chapter Achievements</h1>
+        <p class="text-lg md:text-xl max-w-2xl mx-auto aos-init" data-aos="fade-up">
+          Celebrating our finalists and winners from PRHS TSA’s competitive journey.
+        </p>
+      </div>
+    </section>
+  
+    <!-- Awards Section -->
+    <section class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4 text-center" id="achievementsSection">
+        <h2 class="text-3xl font-bold text-blue-700 mb-6 aos-init" data-aos="fade-up">Top 10 Finalists</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-left">
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Architectural Design</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Audio Podcasting</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Biotechnology Design</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Chapter Team</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Children’s Stories</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">CAD Engineering (Elliot)</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Electrical Applications (Shiloh)</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Engineering Design</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Fashion Design and Technology</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Photographic Technology (Sarim)</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Prepared Presentation (Katie)</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Robotics</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Technical Problem Solving</div>
+          <div class="p-4 bg-blue-100 rounded shadow aos-init" data-aos="fade-up">Video Game Design</div>
+        </div>
+  
+        <!-- Winners -->
+        <h2 class="text-3xl font-bold text-blue-700 mt-16 mb-6 aos-init" data-aos="fade-up">Winners</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-left">
+          <div class="p-4 bg-yellow-200 rounded shadow font-semibold aos-init" data-aos="fade-up">🥉 3rd Place - Data Science and Analytics</div>
+          <div class="p-4 bg-gray-300 rounded shadow font-semibold aos-init" data-aos="fade-up">🥈 2nd Place - Debating Technical Issues</div>
+          <div class="p-4 bg-yellow-200 rounded shadow font-semibold aos-init" data-aos="fade-up">🥉 3rd Place - Electrical Applications (Aditya)</div>
+          <div class="p-4 bg-gray-300 rounded shadow font-semibold aos-init" data-aos="fade-up">🥈 2nd Place - Future Technology Teacher (Jennah)</div>
+          <div class="p-4 bg-blue-100 rounded shadow font-semibold aos-init" data-aos="fade-up">🏅 9th Place - Outstanding Chapter</div>
+        </div>
+      </div>
+    </section>
+  
+  </main>
+  
+  <!-- Confetti JS & Animation on Scroll -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          confetti({
+            particleCount: 120,
+            spread: 70,
+            origin: { y: 0.6 }
+          });
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.6 });
+  
+    const section = document.getElementById('achievementsSection');
+    if (section) observer.observe(section);
+  </script>
+  
+  <!--#include file="shared/footer.html" -->  

@@ -1,0 +1,62 @@
+<!-- contact.shtml -->
+<!--#include file="shared/header.html" -->
+<main class="bg-white text-gray-800">
+
+  <!-- Hero Banner -->
+  <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-20 text-center" data-aos="fade-down">
+    <div class="container mx-auto px-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+      <p class="text-lg md:text-xl max-w-2xl mx-auto">
+        Get in touch with PRHS TSA for questions, collaborations, or general info.
+      </p>
+    </div>
+  </section>
+
+  <!-- Advisor Card -->
+  <section class="py-16 bg-white" data-aos="fade-up">
+    <div class="container mx-auto px-6 max-w-3xl">
+      <div class="bg-blue-100 p-6 rounded-lg shadow-md flex flex-col sm:flex-row items-center">
+        <img src="images/Mr fusia.JPG" alt="Advisor Photo" class="w-28 h-auto max-h-28 object-cover rounded-full mb-4 sm:mb-0 sm:mr-6">
+        <div class="text-center sm:text-left">
+          <h3 class="text-xl font-bold text-blue-800 mb-1">Michael Fusia</h3>
+          <p class="text-gray-700 mb-1">TSA Advisor</p>
+          <p class="text-gray-700"><i class="fas fa-envelope text-blue-600 mr-2"></i>michael.fusia@gcpsk12.org</p>
+          <p class="text-gray-700"><i class="fas fa-phone-alt text-blue-600 mr-2"></i>678-923-7370</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Other Contact Methods -->
+  <section class="py-12 bg-gray-100" data-aos="fade-up">
+    <div class="container mx-auto px-6 max-w-4xl">
+      <h2 class="text-3xl font-bold text-blue-700 text-center mb-10">Other</h2>
+      <div class="grid md:grid-cols-3 gap-6 text-center">
+        
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <i class="fab fa-instagram text-4xl text-pink-500 mb-4"></i>
+          <h3 class="text-lg font-semibold mb-2">Instagram</h3>
+          <p class="mb-3">@prhstsa</p>
+          <a href="https://www.instagram.com/prhstsa/" target="_blank" class="text-blue-600 hover:underline">Visit</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <i class="fab fa-discord text-4xl text-indigo-500 mb-4"></i>
+          <h3 class="text-lg font-semibold mb-2">Discord</h3>
+          <p class="mb-3">Chapter Server</p>
+          <a href="https://discord.com/invite/ff6359NkB2" target="_blank" class="text-blue-600 hover:underline">Join Now</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <i class="fas fa-link text-4xl text-green-600 mb-4"></i>
+          <h3 class="text-lg font-semibold mb-2">Linktree</h3>
+          <p class="mb-3">Quick Links</p>
+          <a href="https://linktr.ee/RidgeTSA" target="_blank" class="text-blue-600 hover:underline">Open</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+<!--#include file="shared/footer.html" -->

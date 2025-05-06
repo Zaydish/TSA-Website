@@ -1,0 +1,80 @@
+<!-- about.shtml -->
+<!--#include file="shared/header.html" -->
+<main class="bg-white text-gray-800">
+
+  <!-- Hero Banner -->
+  <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-20 text-center" data-aos="fade-down">
+    <div class="container mx-auto px-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">About TSA</h1>
+      <p class="text-lg md:text-xl max-w-2xl mx-auto">
+        Discover what makes the Technology Student Association a leader in STEM education and student leadership across the nation.
+      </p>
+    </div>
+  </section>
+
+  <!-- What is TSA -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-bold text-blue-700 mb-4">What is TSA?</h2>
+        <p class="text-lg mb-4">
+          The Technology Student Association (TSA) is a national, student-led organization that empowers students to grow as leaders in science, technology, engineering, and mathematics (STEM).
+        </p>
+        <p class="text-lg">
+          With over 250,000 members nationwide, TSA fosters problem-solving, collaboration, innovation, and critical thinking through over 70 competitive events, leadership opportunities, and career-oriented activities.
+        </p>
+      </div>
+      <a href="https://tsaweb.org/" target="_blank" class="transform transition-transform duration-300 hover:scale-105">
+        <img src="images/TSA Logo.png" alt="TSA Overview" class="rounded-xl shadow-lg w-full">
+      </a>
+    </div>
+  </section>
+
+  <!-- Chapter Section -->
+  <section class="py-16 bg-gray-100">
+    <div class="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <img src="images/FLC Group Photo.JPG" alt="Chapter Members" class="rounded-xl shadow-lg w-full" data-aos="fade-right">
+      <div data-aos="fade-left">
+        <h2 class="text-3xl font-bold text-blue-700 mb-4">About Our Chapter</h2>
+        <p class="text-lg mb-4">
+          Peachtree Ridge TSA (PRHS TSA) is one of the largest and most decorated chapters in the region. We participate in local, state, and national competitions, often bringing home top awards in video production, systems control, biotechnology, and more.
+        </p>
+        <p class="text-lg">
+          Beyond competitions, our chapter emphasizes leadership development, service, and collaboration. Our members become confident communicators, creative thinkers, and capable engineers—prepared for the challenges of tomorrow.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Join Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-blue-700 mb-10" data-aos="fade-up">Why Join PRHS TSA?</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <div class="text-4xl text-blue-600 mb-4">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Grow Your Skills</h3>
+          <p>Build experience in coding, design, leadership, and public speaking through real-world STEM challenges.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="100">
+          <div class="text-4xl text-blue-600 mb-4">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Build Friendships</h3>
+          <p>Make lasting friendships with peers who share your drive and interests. TSA is more than a club—it's a community.</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
+          <div class="text-4xl text-blue-600 mb-4">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Achieve & Compete</h3>
+          <p>Represent PRHS at the highest levels in TSA competitions and win recognition for your innovations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<!--#include file="shared/footer.html" -->

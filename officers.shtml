@@ -1,0 +1,60 @@
+<!-- team.shtml -->
+<!--#include file="shared/header.html" -->
+<main class="bg-white text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-20 text-center" data-aos="fade-down">
+    <div class="container mx-auto px-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Meet the Officers</h1>
+      <p class="text-lg md:text-xl max-w-2xl mx-auto">Leading PRHS TSA with passion, creativity, and vision.</p>
+    </div>
+  </section>
+
+  <!-- Officer Grid -->
+  <section class="py-16">
+    <div class="container mx-auto px-6">
+      <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+
+        <!-- Officer Card -->
+        <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up">
+          <img src="https://via.placeholder.com/150" alt="Ayesha Rehman" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Ayesha Rehman</h3>
+          <p class="text-gray-600">President, Junior</p>
+        </div>
+
+        <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://via.placeholder.com/150" alt="Sahil Quazi" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Sahil Quazi</h3>
+          <p class="text-gray-600">Vice President, Senior</p>
+        </div>
+
+        <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://via.placeholder.com/150" alt="Aaron Vigil" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Aaron Vigil</h3>
+          <p class="text-gray-600">Treasurer, Sophomore</p>
+        </div>
+
+        <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="300">
+          <img src="https://via.placeholder.com/150" alt="Shiloh Han" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Shiloh Han</h3>
+          <p class="text-gray-600">Historian, Junior</p>
+        </div>
+
+        <!-- Filler Officers -->
+        <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="400">
+          <img src="https://via.placeholder.com/150" alt="Officer Placeholder" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Officer Name</h3>
+          <p class="text-gray-600">Position, Grade</p>
+        </div>
+
+        <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
+          <img src="https://via.placeholder.com/150" alt="Officer Placeholder" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Officer Name</h3>
+          <p class="text-gray-600">Position, Grade</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+<!--#include file="shared/footer.html" -->

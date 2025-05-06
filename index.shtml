@@ -1,0 +1,113 @@
+<!-- index.shtml -->
+<!--#include file="shared/header.html" -->
+<main class="bg-white text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="hero flex items-center justify-center text-center text-white bg-cover bg-center h-[90vh]" style="background-image: url('images/SLC Group Photo.JPG'); background-color: rgba(0, 0, 0, 0.6); background-blend-mode: darken;">
+    <div class="container mx-auto px-4" data-aos="fade-down">
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">Peachtree Ridge TSA</h1>
+      <p class="text-xl md:text-2xl mb-8">Learning to Lead in a Technical World</p>
+      <a href="about.shtml" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-block">
+        Learn About TSA <i class="fas fa-arrow-right ml-2"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Carousel + Text Section -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
+      <!-- Carousel -->
+      <div class="w-full md:w-1/2 relative group" data-aos="fade-right">
+        <div class="relative w-full overflow-hidden rounded-xl shadow-md h-[400px]">
+          <div class="carousel-images flex transition-transform duration-700 h-full" style="width: 700%;">
+            <img src="images/FLC Group Photo.JPG" class="w-full object-cover rounded-xl" alt="FLC Group">
+            <img src="images/Trophies.JPG" class="w-full object-cover rounded-xl" alt="Trophies">
+            <img src="images/TSA Officers Photo.JPG" class="w-full object-cover rounded-xl" alt="TSA Officers">
+            <img src="images/Engineering Design.JPG" class="w-full object-cover rounded-xl" alt="Engineering Design">
+            <img src="images/Seniors.JPG" class="w-full object-cover rounded-xl" alt="Seniors">
+            <img src="images/Systems.JPG" class="w-full object-cover rounded-xl" alt="Systems">
+            <img src="images/VEX Team.JPG" class="w-full object-cover rounded-xl" alt="VEX Team">
+          </div>
+        </div>
+        <button id="prevBtn" class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 text-gray-800 px-3 py-1 rounded-full shadow hover:bg-opacity-100 transition hidden group-hover:block z-10">
+          &#10094;
+        </button>
+        <button id="nextBtn" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 text-gray-800 px-3 py-1 rounded-full shadow hover:bg-opacity-100 transition hidden group-hover:block z-10">
+          &#10095;
+        </button>
+      </div>
+
+      <!-- Text Content -->
+      <div class="w-full md:w-1/2 text-center md:text-left" data-aos="fade-left">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Empowering Future STEM Leaders</h2>
+        <p class="text-gray-600 text-lg mb-2">
+          PRHS TSA is dedicated to nurturing the next generation of technology and engineering innovators.
+          Through hands-on STEM projects, competitive events, and collaboration, students gain technical expertise,
+          leadership skills, and lifelong friendships.
+        </p>
+        <p class="text-gray-600 text-lg">
+          We aim to foster curiosity and confidence in young learners, providing the tools and mentorship needed
+          to thrive in both high school and beyond. Whether you're interested in coding, robotics, graphic design,
+          or public speaking—PRHS TSA is your platform to grow.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- JavaScript for Carousel -->
+  <script>
+    let currentSlide = 0;
+    let isPaused = false;
+    const carousel = document.querySelector(".carousel-images");
+    const totalSlides = carousel.children.length;
+
+    const updateSlide = () => {
+      carousel.style.transform = `translateX(-${(100 / totalSlides) * currentSlide}%)`;
+    };
+
+    document.getElementById("nextBtn").addEventListener("click", () => {
+      currentSlide = (currentSlide + 1) % totalSlides;
+      updateSlide();
+    });
+
+    document.getElementById("prevBtn").addEventListener("click", () => {
+      currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+      updateSlide();
+    });
+
+    setInterval(() => {
+      if (!isPaused) {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateSlide();
+      }
+    }, 4000);
+
+    carousel.addEventListener("mouseenter", () => isPaused = true);
+    carousel.addEventListener("mouseleave", () => isPaused = false);
+  </script>
+
+  <!-- Info Cards -->
+  <section class="bg-gray-100 py-16" data-aos="fade-up">
+    <div class="container mx-auto px-6">
+      <div class="grid gap-8 md:grid-cols-3 text-center">
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Competitions</h3>
+          <p class="text-gray-600 mb-4">Explore the wide range of events TSA offers to challenge your tech skills.</p>
+          <a href="competitions.shtml" class="text-blue-600 hover:underline">Learn more &rarr;</a>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Events & Projects</h3>
+          <p class="text-gray-600 mb-4">From chapter meetings to national conferences, see what we’re up to.</p>
+          <a href="events.shtml" class="text-blue-600 hover:underline">Check them out &rarr;</a>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Join PRHS TSA</h3>
+          <p class="text-gray-600 mb-4">Want to be part of our team? Here’s how you can get involved.</p>
+          <a href="sponsors.shtml" class="text-blue-600 hover:underline">Join us &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<!--#include file="shared/footer.html" -->

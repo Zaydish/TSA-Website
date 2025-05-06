@@ -1,0 +1,113 @@
+<!-- competitions.shtml -->
+<!--#include file="shared/header.html" -->
+<main class="bg-white text-gray-800">
+
+  <!-- Header Banner -->
+  <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-20 text-center" data-aos="fade-down">
+    <div class="container mx-auto px-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">TSA Competitions</h1>
+      <p class="text-lg md:text-xl max-w-2xl mx-auto">Explore our wide range of competitive events sorted by category.</p>
+    </div>
+  </section>
+
+  <!-- Engineering Events -->
+  <section class="py-12 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-700 mb-8" data-aos="fade-up">Engineering</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Engineering Design</h3>
+          <p class="text-gray-600">Design, build, and test an engineering solution to a real-world problem.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Architectural Design</h3>
+          <p class="text-gray-600">Demonstrate your skills in design and architecture through structural models.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Structural Engineering</h3>
+          <p class="text-gray-600">Design and build structures that withstand maximum stress under testing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coding Events -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-700 mb-8" data-aos="fade-up">Coding</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Software Development</h3>
+          <p class="text-gray-700">Develop a full software product using coding and project management skills.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Cybersecurity</h3>
+          <p class="text-gray-700">Secure systems and solve cyber challenges under time constraints.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">System Control Technology</h3>
+          <p class="text-gray-700">Build and code a working system using hardware and automation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Events -->
+  <section class="py-12 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-700 mb-8" data-aos="fade-up">Leadership</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Prepared Presentation</h3>
+          <p class="text-gray-600">Deliver a compelling and well-organized presentation on a TSA topic.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Debating Technological Issues</h3>
+          <p class="text-gray-600">Debate opposing perspectives on current tech issues in timed rounds.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Leadership Strategies</h3>
+          <p class="text-gray-600">Develop and demonstrate chapter management and leadership practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Arts & Media Events -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-700 mb-8" data-aos="fade-up">Arts & Media</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Digital Video Production</h3>
+          <p class="text-gray-700">Create a short video to creatively address the annual theme.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Music Production</h3>
+          <p class="text-gray-700">Compose and mix original audio based on a given prompt.</p>
+        </div>
+        <div class="p-6 bg-blue-50 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up">
+          <h3 class="text-xl font-bold text-blue-800 mb-2">Photographic Technology</h3>
+          <p class="text-gray-700">Capture powerful visual stories through photography and editing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- External Link Card -->
+  <section class="py-16 bg-gradient-to-r from-blue-50 to-blue-100">
+    <div class="container mx-auto px-6 text-center" data-aos="fade-up">
+      <div class="bg-white p-6 rounded-xl shadow-lg inline-block max-w-md hover:shadow-2xl transition">
+        <h3 class="text-2xl font-bold text-blue-800 mb-3">Explore All TSA Competitions</h3>
+        <p class="text-gray-600 mb-4">Browse the official TSA website for a complete list of all high school competitions.</p>
+        <a href="https://tsaweb.org/competitions/!hs/-in-category/categories/all-high-school-competitions#highschool"
+           target="_blank"
+           class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded transition duration-300">
+          Visit TSA Competition Site
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+<!--#include file="shared/footer.html" -->
