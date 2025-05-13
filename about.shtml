@@ -1,4 +1,3 @@
-<!-- about.shtml -->
 <!--#include file="shared/header.html" -->
 <main class="bg-white text-gray-800">
 
@@ -77,3 +76,4 @@
   </section>
 
 </main>
+<!--#include file="shared/footer.html" -->

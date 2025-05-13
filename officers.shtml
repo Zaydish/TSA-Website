@@ -1,3 +1,4 @@
+<!--#include file="shared/header.html" -->
 <main class="bg-white text-gray-800">
 
   <!-- Hero Section -->
@@ -55,3 +56,4 @@
     </div>
   </section>
 </main>
+<!--#include file="shared/footer.html" -->
