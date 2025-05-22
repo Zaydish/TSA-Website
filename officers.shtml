@@ -28,28 +28,45 @@
         </div>
 
         <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="200">
-          <img src="https://via.placeholder.com/150" alt="Aaron Vigil" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <img src="https://via.placeholder.com/150" alt="Officer Placeholder" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Officer Placeholder</h3>
+          <p class="text-gray-600">Secretary, Grade</p>
+        </div>
+
+        <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
+          <img src="images/Aaron.jpg" alt="Aaron Vigil" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
           <h3 class="text-xl font-bold text-blue-700">Aaron Vigil</h3>
           <p class="text-gray-600">Treasurer, Sophomore</p>
         </div>
 
-        <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="300">
-          <img src="https://via.placeholder.com/150" alt="Shiloh Han" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
-          <h3 class="text-xl font-bold text-blue-700">Shiloh Han</h3>
-          <p class="text-gray-600">Historian, Junior</p>
-        </div>
-
-        <!-- Filler Officers -->
         <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="400">
           <img src="https://via.placeholder.com/150" alt="Officer Placeholder" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
           <h3 class="text-xl font-bold text-blue-700">Officer Name</h3>
-          <p class="text-gray-600">Position, Grade</p>
+          <p class="text-gray-600">Reporter, Grade</p>
         </div>
 
         <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
           <img src="https://via.placeholder.com/150" alt="Officer Placeholder" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
           <h3 class="text-xl font-bold text-blue-700">Officer Name</h3>
-          <p class="text-gray-600">Position, Grade</p>
+          <p class="text-gray-600">Sergeant-at-Arms, Grade</p>
+        </div>
+
+         <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
+          <img src="images/Eric Shu.jpeg" alt="Eric Shu" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Eric Shu</h3>
+          <p class="text-gray-600">Member at Large, Junior</p>
+        </div>
+
+         <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
+          <img src="images/Hannah.jpg" alt="Hannah Chun" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Hannah Chun</h3>
+          <p class="text-gray-600">Member at Large, Sophomore</p>
+        </div>
+
+         <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
+          <img src="/images/Shiloh.jpg" alt="Shiloh Han" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Shiloh Han</h3>
+          <p class="text-gray-600">Historian, Junior</p>
         </div>
 
       </div>
