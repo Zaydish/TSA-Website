@@ -16,8 +16,8 @@
 
         <!-- Officer Card -->
         <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up">
-          <img src="https://via.placeholder.com/150" alt="Ayesha Rehman" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
-          <h3 class="text-xl font-bold text-blue-700">Ayesha Rehman</h3>
+          <img src="images/Ayesha.jpg" alt="Ayesha Rahman" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Ayesha Rahman</h3>
           <p class="text-gray-600">President, Junior</p>
         </div>
 
@@ -29,8 +29,8 @@
 
         <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="200">
           <img src="https://via.placeholder.com/150" alt="Officer Placeholder" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
-          <h3 class="text-xl font-bold text-blue-700">Officer Placeholder</h3>
-          <p class="text-gray-600">Secretary, Grade</p>
+          <h3 class="text-xl font-bold text-blue-700">Elliot Nguyen</h3>
+          <p class="text-gray-600">Secretary, Senior</p>
         </div>
 
         <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
@@ -39,16 +39,17 @@
           <p class="text-gray-600">Treasurer, Sophomore</p>
         </div>
 
-        <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="400">
-          <img src="https://via.placeholder.com/150" alt="Officer Placeholder" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
-          <h3 class="text-xl font-bold text-blue-700">Officer Name</h3>
-          <p class="text-gray-600">Reporter, Grade</p>
+        <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
+          <img src="https://via.placeholder.com/150" alt="Adam Hamdan" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Adam Hamdan</h3>
+          <p class="text-gray-600">Reporter, Junior</p>
         </div>
+         
 
         <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
-          <img src="https://via.placeholder.com/150" alt="Officer Placeholder" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
-          <h3 class="text-xl font-bold text-blue-700">Officer Name</h3>
-          <p class="text-gray-600">Sergeant-at-Arms, Grade</p>
+          <img src="https://via.placeholder.com/150" alt="Alex Han" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <h3 class="text-xl font-bold text-blue-700">Alex Han</h3>
+          <p class="text-gray-600">Sergeant-at-Arms, Junior</p>
         </div>
 
          <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
@@ -64,9 +65,10 @@
         </div>
 
          <div class="bg-blue-50 rounded-lg shadow-lg p-6 text-center" data-aos="fade-up" data-aos-delay="500">
-          <img src="/images/Shiloh.jpg" alt="Shiloh Han" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
+          <img src="images/Shiloh.jpg" alt="Shiloh Han" class="mx-auto rounded-full mb-4 w-32 h-32 object-cover shadow-md">
           <h3 class="text-xl font-bold text-blue-700">Shiloh Han</h3>
           <p class="text-gray-600">Historian, Junior</p>
+        </div>
         </div>
 
       </div>
